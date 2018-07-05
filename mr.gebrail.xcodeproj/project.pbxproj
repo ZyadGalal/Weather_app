@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3215C69320EBEA2700CD3DFB /* capitalcoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215C69220EBEA2600CD3DFB /* capitalcoords.swift */; };
+		321E703420EDB975000DB9B7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E703320EDB975000DB9B7 /* DetailsViewController.swift */; };
+		321E703620EDBE02000DB9B7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E703520EDBE02000DB9B7 /* CollectionViewCell.swift */; };
+		321E703820EDBFD7000DB9B7 /* weatherForcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E703720EDBFD7000DB9B7 /* weatherForcast.swift */; };
+		329FA5CE20EAF12F005D0FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA5CD20EAF12F005D0FC0 /* AppDelegate.swift */; };
+		329FA5D020EAF12F005D0FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA5CF20EAF12F005D0FC0 /* ViewController.swift */; };
+		329FA5D320EAF12F005D0FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA5D120EAF12F005D0FC0 /* Main.storyboard */; };
+		329FA5D620EAF12F005D0FC0 /* mr_gebrail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 329FA5D420EAF12F005D0FC0 /* mr_gebrail.xcdatamodeld */; };
+		329FA5D820EAF131005D0FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FA5D720EAF131005D0FC0 /* Assets.xcassets */; };
+		329FA5DB20EAF131005D0FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA5D920EAF131005D0FC0 /* LaunchScreen.storyboard */; };
+		32EAEEF020ED26A900F34C22 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EAEEEF20ED26A900F34C22 /* WeatherModel.swift */; };
+		B0AD7995DC1C76F8B0E637F0 /* Pods_mr_gebrail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52046FD43688EA8E9683C29F /* Pods_mr_gebrail.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3215C69220EBEA2600CD3DFB /* capitalcoords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capitalcoords.swift; sourceTree = "<group>"; };
+		321E703320EDB975000DB9B7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		321E703520EDBE02000DB9B7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		321E703720EDBFD7000DB9B7 /* weatherForcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherForcast.swift; sourceTree = "<group>"; };
+		329FA5CA20EAF12F005D0FC0 /* mr.gebrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mr.gebrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329FA5CD20EAF12F005D0FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		329FA5CF20EAF12F005D0FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		329FA5D220EAF12F005D0FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329FA5D520EAF12F005D0FC0 /* mr_gebrail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mr_gebrail.xcdatamodel; sourceTree = "<group>"; };
+		329FA5D720EAF131005D0FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329FA5DA20EAF131005D0FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		329FA5DC20EAF131005D0FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EAEEEF20ED26A900F34C22 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		52046FD43688EA8E9683C29F /* Pods_mr_gebrail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mr_gebrail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734E68D0A5D23084EEF8C62F /* Pods-mr.gebrail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mr.gebrail.release.xcconfig"; path = "Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail.release.xcconfig"; sourceTree = "<group>"; };
+		E715C388E7023CF99309A3E6 /* Pods-mr.gebrail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mr.gebrail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329FA5C720EAF12F005D0FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD7995DC1C76F8B0E637F0 /* Pods_mr_gebrail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097EF9A28F90809F80606D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E715C388E7023CF99309A3E6 /* Pods-mr.gebrail.debug.xcconfig */,
+				734E68D0A5D23084EEF8C62F /* Pods-mr.gebrail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		329FA5C120EAF12F005D0FC0 = {
+			isa = PBXGroup;
+			children = (
+				329FA5CC20EAF12F005D0FC0 /* mr.gebrail */,
+				329FA5CB20EAF12F005D0FC0 /* Products */,
+				097EF9A28F90809F80606D47 /* Pods */,
+				D96420B121DC0A24EA0189D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		329FA5CB20EAF12F005D0FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329FA5CA20EAF12F005D0FC0 /* mr.gebrail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329FA5CC20EAF12F005D0FC0 /* mr.gebrail */ = {
+			isa = PBXGroup;
+			children = (
+				329FA5CD20EAF12F005D0FC0 /* AppDelegate.swift */,
+				329FA5CF20EAF12F005D0FC0 /* ViewController.swift */,
+				329FA5D120EAF12F005D0FC0 /* Main.storyboard */,
+				329FA5D720EAF131005D0FC0 /* Assets.xcassets */,
+				329FA5D920EAF131005D0FC0 /* LaunchScreen.storyboard */,
+				329FA5DC20EAF131005D0FC0 /* Info.plist */,
+				329FA5D420EAF12F005D0FC0 /* mr_gebrail.xcdatamodeld */,
+				3215C69220EBEA2600CD3DFB /* capitalcoords.swift */,
+				32EAEEEF20ED26A900F34C22 /* WeatherModel.swift */,
+				321E703320EDB975000DB9B7 /* DetailsViewController.swift */,
+				321E703520EDBE02000DB9B7 /* CollectionViewCell.swift */,
+				321E703720EDBFD7000DB9B7 /* weatherForcast.swift */,
+			);
+			path = mr.gebrail;
+			sourceTree = "<group>";
+		};
+		D96420B121DC0A24EA0189D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52046FD43688EA8E9683C29F /* Pods_mr_gebrail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329FA5C920EAF12F005D0FC0 /* mr.gebrail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329FA5DF20EAF131005D0FC0 /* Build configuration list for PBXNativeTarget "mr.gebrail" */;
+			buildPhases = (
+				858E7FA1D9B2F31DB77C9670 /* [CP] Check Pods Manifest.lock */,
+				329FA5C620EAF12F005D0FC0 /* Sources */,
+				329FA5C720EAF12F005D0FC0 /* Frameworks */,
+				329FA5C820EAF12F005D0FC0 /* Resources */,
+				1F73496CA4284A5599748194 /* [CP] Embed Pods Frameworks */,
+				33693957D30A28C90AA725E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mr.gebrail;
+			productName = mr.gebrail;
+			productReference = 329FA5CA20EAF12F005D0FC0 /* mr.gebrail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329FA5C220EAF12F005D0FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Zyad Galal";
+				TargetAttributes = {
+					329FA5C920EAF12F005D0FC0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 329FA5C520EAF12F005D0FC0 /* Build configuration list for PBXProject "mr.gebrail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329FA5C120EAF12F005D0FC0;
+			productRefGroup = 329FA5CB20EAF12F005D0FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329FA5C920EAF12F005D0FC0 /* mr.gebrail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329FA5C820EAF12F005D0FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FA5DB20EAF131005D0FC0 /* LaunchScreen.storyboard in Resources */,
+				329FA5D820EAF131005D0FC0 /* Assets.xcassets in Resources */,
+				329FA5D320EAF12F005D0FC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F73496CA4284A5599748194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33693957D30A28C90AA725E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mr.gebrail/Pods-mr.gebrail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		858E7FA1D9B2F31DB77C9670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mr.gebrail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329FA5C620EAF12F005D0FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FA5D020EAF12F005D0FC0 /* ViewController.swift in Sources */,
+				321E703820EDBFD7000DB9B7 /* weatherForcast.swift in Sources */,
+				329FA5CE20EAF12F005D0FC0 /* AppDelegate.swift in Sources */,
+				3215C69320EBEA2700CD3DFB /* capitalcoords.swift in Sources */,
+				321E703620EDBE02000DB9B7 /* CollectionViewCell.swift in Sources */,
+				32EAEEF020ED26A900F34C22 /* WeatherModel.swift in Sources */,
+				329FA5D620EAF12F005D0FC0 /* mr_gebrail.xcdatamodeld in Sources */,
+				321E703420EDB975000DB9B7 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		329FA5D120EAF12F005D0FC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329FA5D220EAF12F005D0FC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		329FA5D920EAF131005D0FC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329FA5DA20EAF131005D0FC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329FA5DD20EAF131005D0FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329FA5DE20EAF131005D0FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329FA5E020EAF131005D0FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E715C388E7023CF99309A3E6 /* Pods-mr.gebrail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = mr.gebrail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyadgalal.mr-gebrail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		329FA5E120EAF131005D0FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734E68D0A5D23084EEF8C62F /* Pods-mr.gebrail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = mr.gebrail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyadgalal.mr-gebrail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329FA5C520EAF12F005D0FC0 /* Build configuration list for PBXProject "mr.gebrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329FA5DD20EAF131005D0FC0 /* Debug */,
+				329FA5DE20EAF131005D0FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329FA5DF20EAF131005D0FC0 /* Build configuration list for PBXNativeTarget "mr.gebrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329FA5E020EAF131005D0FC0 /* Debug */,
+				329FA5E120EAF131005D0FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		329FA5D420EAF12F005D0FC0 /* mr_gebrail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				329FA5D520EAF12F005D0FC0 /* mr_gebrail.xcdatamodel */,
+			);
+			currentVersion = 329FA5D520EAF12F005D0FC0 /* mr_gebrail.xcdatamodel */;
+			path = mr_gebrail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 329FA5C220EAF12F005D0FC0 /* Project object */;
+}
