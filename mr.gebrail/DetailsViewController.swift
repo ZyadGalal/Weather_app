@@ -100,6 +100,8 @@ class DetailsViewController: UIViewController , UICollectionViewDelegate , UICol
     //------------------------------------- COUNTING LABELE
     @objc func countingLabel()
     {
+        if countryWeatherData.temp > 0
+        {
         if startTimer != countryWeatherData.temp+1
         {
             cityTemp.text = "\(startTimer)°"
@@ -107,6 +109,25 @@ class DetailsViewController: UIViewController , UICollectionViewDelegate , UICol
         }
         else
         {
+            timer.invalidate()
+        }
+        }
+        else if countryWeatherData.temp < 0
+        {
+            
+            if startTimer != countryWeatherData.temp-1
+            {
+                cityTemp.text = "\(startTimer)°"
+                startTimer -= 1
+            }
+            else
+            {
+                timer.invalidate()
+            }
+        }
+        else
+        {
+            cityTemp.text = "0°"
             timer.invalidate()
         }
     }
